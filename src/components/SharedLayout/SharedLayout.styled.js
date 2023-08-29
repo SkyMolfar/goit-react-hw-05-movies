@@ -9,4 +9,5 @@ const SwitchTheme = styled(Switch)`
     background-color: orange;
   }
 `;
+
 export { SwitchTheme };

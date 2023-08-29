@@ -12,6 +12,7 @@ import {
 } from './Cast.styled';
 import Image from 'components/Image/Image';
 
+
 const Cast = ({ theme }) => {
   const { movieId } = useParams();
   const [actors, setActors] = useState([]);

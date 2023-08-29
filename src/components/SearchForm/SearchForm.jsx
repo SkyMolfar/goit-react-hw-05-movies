@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import SearchIcon from '@mui/icons-material/Search';
 import { MovieSearch, SearchBtn, SearchWrapper } from './SearchForm.styled';
 
+
 const SearchForm = ({ theme, onFormSearch }) => {
   const onFormSubmit = e => {
     e.preventDefault();

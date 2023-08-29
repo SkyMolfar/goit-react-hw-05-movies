@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { globalTheme } from 'styles/theme';
 
+
 const MainContainer = styled.section`
   margin: 0 auto;
 `;
@@ -33,5 +34,6 @@ const Container = styled.div`
     width: 1200px;
   }
 `;
+
 
 export { MainContainer, Container, MainContainerApp };

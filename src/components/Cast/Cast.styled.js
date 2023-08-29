@@ -7,6 +7,7 @@ const CollapseTitle = styled.h2`
   text-align: center;
   margin-bottom: 20px;
 `;
+
 const CloseLink = styled(Link)`
   background-color: transparent;
   border: transparent;
@@ -21,6 +22,7 @@ const CloseLink = styled(Link)`
     color: ${props => props.theme.hover};
   }
 `;
+
 const CharacterTitle = styled.h2`
   margin-top: 20px;
   &.character {
@@ -35,4 +37,5 @@ const CharacterName = styled.h3`
   color: ${props => props.theme.text};
   font-weight: 500;
 `;
+
 export { CollapseTitle, CloseLink, CharacterTitle, CharacterName };

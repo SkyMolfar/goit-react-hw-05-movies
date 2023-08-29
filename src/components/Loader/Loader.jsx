@@ -1,4 +1,5 @@
 import { Rings } from 'react-loader-spinner';
+
 export function Loader() {
   return (
     <Rings

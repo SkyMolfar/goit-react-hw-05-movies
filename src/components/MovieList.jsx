@@ -24,4 +24,5 @@ MovieList.propType = {
   theme: PropTypes.object.isRequired,
   item: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
+
 export { MovieList };

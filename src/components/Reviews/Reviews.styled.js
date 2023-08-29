@@ -27,4 +27,5 @@ const NoReview = styled.div`
   padding-bottom: 50px;
   color: ${props => props.theme.accent};
 `;
+
 export { TextReviews, AuthorRewiew, DateReview, ItemReview, NoReview };

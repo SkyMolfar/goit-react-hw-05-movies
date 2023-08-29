@@ -8,4 +8,5 @@ const ImageWrapper = styled.div`
     height: ${props => props.style.height};
   }
 `;
+
 export { ImageWrapper };

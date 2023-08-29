@@ -77,4 +77,5 @@ MovieDetailsWrapper.propTypes = {
   theme: PropTypes.object.isRequired,
   movieDetails: PropTypes.object.isRequired,
 };
+
 export { MovieDetailsWrapper };

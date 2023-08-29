@@ -12,6 +12,7 @@ const MovieSearch = styled.input`
   font-size: 20px;
   font-weight: bold;
 `;
+
 const SearchWrapper = styled.div`
   width: 500px;
   margin-left: auto;
@@ -49,4 +50,5 @@ const SearchBtn = styled.button`
     fill: orange;
   }
 `;
+
 export { MovieSearch, SearchWrapper, SearchBtn };

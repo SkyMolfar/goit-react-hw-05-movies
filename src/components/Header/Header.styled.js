@@ -96,4 +96,5 @@ const LogoText = styled.span`
     display: none;
   }
 `;
+
 export { Navigation, ContainerHeader, HeaderLink, Logo, LogoText };

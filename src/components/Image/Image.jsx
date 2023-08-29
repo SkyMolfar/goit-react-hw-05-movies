@@ -1,6 +1,7 @@
 import imgNotFound from '../../img/imgnotfound.jpg';
 import { ImageWrapper } from './Image.styled';
 
+
 function Image({ path, name, style }) {
   return (
     <ImageWrapper style={style}>

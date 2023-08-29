@@ -23,4 +23,5 @@ MovieItem.propType = {
   poster_path: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
+
 export { MovieItem };
