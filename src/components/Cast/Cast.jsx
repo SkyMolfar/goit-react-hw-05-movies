@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getMovieCredits } from 'services/API_themoviedb';
